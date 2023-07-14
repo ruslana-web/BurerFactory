@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Burger Factory. Your dreamed burger close to your locations!">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" >
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Burger Factory</title>
+</head>
+<body>
+
+
+<div class="header">
+    <div class="container">
+        <div class="header__body">
+            <div class="logo">
+                <a href="#">
+                    <img class="logo__img" src="images/logo.png" alt="logo">
+                </a>
+            </div>
+
+            <div class="menu__nav">
+                <div class="menu__nav-item">
+                    <ul>
+                        <li><a class="menu__nav-link" href="#ingredient" onclick="closeNav()">INGREDIENT</a></li>
+                        <li><a class="menu__nav-link" href="#story" onclick="closeNav()">STORY</a></li>
+                        <li><a class="menu__nav-link" href="#burgers" onclick="closeNav()">BURGERS</a></li>
+                        <li><a class="menu__nav-link" href="#location" onclick="closeNav()">LOCATION</a></li>
+                    </ul>
+                </div>
+                <a class="menu__button" href="#burgers" onclick="closeNav()">Order now</a>
+            </div>
+
+            <div class="burger">
+                <div class="burger__1"></div>
+                <div class="burger__2"></div>
+                <div class="burger__3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="home">
+    <div class="container">
+        <div class="home__body">
+            <div class="home__body-text">
+                <h1 data-aos="flip-left" data-aos-duration="1000" class="home__body-text__h1">Burger Factory</h1>
+                <h3 data-aos="zoom-in" data-aos-duration="1000" class="home__body-text__p">Your dreamed burger close to your locations!</h3>
+                <a data-aos="zoom-in" data-aos-duration="1000" class="home__body-text__btn" href="#ingredient">Discover the ingredients</a>
+            </div>
+            <div class="home__body-img parallax" value="5">
+                <img src="images/burger_img.png" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="ingredient" class="ingredients">
+    <div class="container">
+        <div class="ingredients__body">
+            <h2 data-aos="flip-left" data-aos-duration="1000"  class="ingredients__body-h2">Ingredients</h2>
+            <h3 data-aos="zoom-in" data-aos-duration="1000" class="ingredients__body-h3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis id arcu vel maximus.</h3>
+            <div data-aos="fade-up" data-aos-duration="1000" class="ingredients__body-swiper">
+                <div class="blurry1"></div>
+                <div class="swiper mySwiper" style="padding-left: 112px">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="ingredients__card">
+                                <div class="ingredients__card-img1">
+                                    <img src="images/bread.png" alt="img">
+                                </div>
+                                <p class="ingredients__card-text">Buns</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="ingredients__card">
+                                <div class="ingredients__card-img2">
+                                    <img src="images/salad.png" alt="img">
+                                </div>
+                                <p class="ingredients__card-text">Salad</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="ingredients__card">
+                                <div class="ingredients__card-img3">
+                                    <img src="images/tomato.png" alt="img">
+                                </div>
+                                <p class="ingredients__card-text">Tomato</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="ingredients__card">
+                                <div class="ingredients__card-img3">
+                                    <img src="images/cheese.png" alt="img">
+                                </div>
+                                <p class="ingredients__card-text">Cheese</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="ingredients__card">
+                                <div class="ingredients__card-img3">
+                                    <img src="images/meat.png" alt="img">
+                                </div>
+                                <p class="ingredients__card-text">Meat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blurry2"></div>
+            </div>
+            <div class="ingredients__body-cards">
+                <div data-aos="fade-up" data-aos-duration="1000" class="ingredients__card">
+                    <div class="ingredients__card-img1">
+                        <img src="images/bread.png" alt="img">
+                    </div>
+                    <p class="ingredients__card-text">buns</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="ingredients__card">
+                    <div class="ingredients__card-img2">
+                        <img src="images/salad.png" alt="img">
+                    </div>
+                    <p class="ingredients__card-text">Salad</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="ingredients__card">
+                    <div class="ingredients__card-img3">
+                        <img src="images/tomato.png" alt="img">
+                    </div>
+                    <p class="ingredients__card-text">Tomato</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="ingredients__card">
+                    <div class="ingredients__card-img3">
+                        <img src="images/cheese.png" alt="img">
+                    </div>
+                    <p class="ingredients__card-text">Cheese</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" class="ingredients__card">
+                    <div class="ingredients__card-img3">
+                        <img src="images/meat.png" alt="img">
+                    </div>
+                    <p class="ingredients__card-text">Meat</p>
+                </div>
+            </div>
+            <p data-aos="zoom-in" data-aos-duration="1000" class="ingredients__body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget consequat lorem. Ut nec placerat purus. Fusce vitae faucibus augue, non commodo elit. Integer risus orci, ultricies ac dapibus sed, dignissim interdum quam. Proin quis dignissim diam. Donec id magna placerat, fringilla odio et, efficitur lacus. Vivamus eu ultricies erat, eu lobortis nunc. Sed nec dignissim libero. Integer cursus leo nunc. Nulla mattis interdum nunc, sed semper turpis. Cras elit lorem, mollis ut feugiat ac, ultricies eu dolor.</p>
+        </div>
+    </div>
+</div>
+
+<div id="story" class="story">
+    <div class="container">
+        <div class="story__body">
+            <div class="story__body-title">
+                <h2 data-aos="flip-left" data-aos-duration="1000" class="story__body-title__h2">The story</h2>
+                <h3 data-aos="zoom-in" data-aos-duration="1000" class="story__body-title__h3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis id arcu vel maximus.</h3>
+                <p data-aos="zoom-in" data-aos-duration="1000" class="story__body-title__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget consequat lorem. Ut nec placerat purus. Fusce vitae faucibus augue, non commodo elit. Integer risus orci, ultricies ac dapibus sed, dignissim interdum quam. Proin quis dignissim diam. Donec id magna placerat, fringilla odio et, efficitur lacus. Vivamus eu ultricies erat, eu lobortis nunc. Sed nec dignissim libero. Integer cursus leo nunc. Nulla mattis interdum nunc, sed semper turpis. Cras elit lorem, mollis ut feugiat ac, ultricies eu dolor.</p>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="story__body-img">
+                <img src="images/img_burger.png" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="burgers" class="burgers">
+    <div class="container">
+        <div class="burgers__body">
+            <h2 data-aos="flip-left" data-aos-duration="1000"  class="burgers__body-h2">Burgers</h2>
+            <div class="burgers__body-cards">
+                <div data-aos="fade-up" data-aos-duration="1000" class="card">
+                    <h3 class="card__p">1/4 Pound Cheese</h3>
+                    <div class="card__img">
+                        <img src="images/burger.png" alt="img">
+                    </div>
+
+                    <button  class="details-btn-1 card__det">Details</button>
+                    <div class="details-text-1" style="display: none;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut magna a ipsum sollicitudin tristique ac quis orci. Nam nec neque ipsum. 
+                    </div>
+
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" class="card">
+                    <h3 class="card__p">Big Burger</h3>
+                    <div class="card__img">
+                        <img src="images/burger.png" alt="img">
+                    </div>
+
+                    <button class="details-btn-2 card__det">Details</button>
+                    <div class="details-text-2" style="display: none;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut magna a ipsum sollicitudin tristique ac quis orci. Nam nec neque ipsum. 
+                    </div>
+
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1000" class="card">
+                    <h3 class="card__p">Pure Bacon</h3>
+                    <div class="card__img">
+                        <img src="images/burger.png" alt="img">
+                    </div>
+
+                    <button class="details-btn-3 card__det">Details</button>
+                    <div class="details-text-3" style="display: none;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut magna a ipsum sollicitudin tristique ac quis orci. Nam nec neque ipsum. 
+                    </div>
+
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="burgers__body-btn">
+                <a class="burgers__body-btn__link" href="#">Order now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="location" class="location">
+    <div class="container">
+        <div class="location__body">
+            <h2 data-aos="flip-left" data-aos-duration="1000"  class="location__body-h2">Location</h2>
+            <div data-aos="zoom-in" data-aos-duration="1000" class="location__body-info">
+                <h3 class="locat__h3">Burger Factory</h3>
+                <p class="locat__p">Pl. de la Riponne 10</p>
+                <p class="locat__p">1005 Lausanne</p>
+                <p class="locat__p">068 200 00 00</p>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="location__body-img">
+                <img src="images/location.png" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="footer__body">
+            <div class="footer__body-logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="footer__body-info">
+                <h4 class="footer__h4">Burger Factory</h4>
+                <p class="footer__p">Pl. de la Riponne 10</p>
+                <p class="footer__p">1005 Lausanne</p>
+                <p class="footer__p">068 200 00 00</p>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
